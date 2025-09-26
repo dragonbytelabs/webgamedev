@@ -12,10 +12,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/dragonbytelabs/webgamedev/db"
 	"github.com/jmoiron/sqlx"
 	_ "modernc.org/sqlite"
-
-	"github.com/dragonbytelabs/webgamedev/db"
 )
 
 type DB struct {
